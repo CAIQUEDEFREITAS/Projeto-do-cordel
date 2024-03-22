@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: "Sriracha", cursive;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header>h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+img{
+    margin: auto;
+    display: block;
+    text-shadow: 1px 1px 0px black;
+   min-width: 400px;;
+
+}
+
+header a,
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+}
+
+header a:hover,
+footer a:hover {
+
+    text-decoration: underline;
+    color: rgba(16, 189, 201, 0.603);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section>p {
+    padding-bottom: 2em;
+}
+
+section.foto {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+}
+
+section.foto>p {
+    width: 400px;
+    background-color: rgba(17, 17, 17, 0.562);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img1 {
+    background-image: url('https://t3.ftcdn.net/jpg/04/86/09/36/360_F_486093678_V6kzfvcABnAtmBRYrQyo8p0MBHkMwcqw.jpg');
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url('https://acdn.mitiendanube.com/stores/001/797/203/products/11689451887-kit-paisagem-de-cordel-04-0acfd05439c906f93f16300020645907-640-0.png');
+    background-position: right center;
+}
+
+section footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap')
